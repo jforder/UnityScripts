@@ -1,0 +1,41 @@
+using UnityEngine;
+using UnityEditor;
+
+using System.Collections;
+using System.Collections.Generic;
+
+public class #SCRIPTNAME# : ScriptableWizard {
+
+	[MenuItem("Wizards/#SCRIPTNAME#")]
+	public static void Display()
+	{
+		ScriptableWizard.DisplayWizard<#SCRIPTNAME#>("#SCRIPTNAME#");
+	}
+
+	void OnEnable()
+    {
+		
+	}
+
+	void OnDisable()
+    {
+		
+	}
+
+	//void OnWizardCreate () 
+	//{
+	//}
+
+	//void OnWizardUpdate () 
+	//{
+	//}
+
+	//void OnWizardOtherButton () 
+	//{
+	//}
+
+	//public void OnGUI()
+	//{
+	//}
+}
+

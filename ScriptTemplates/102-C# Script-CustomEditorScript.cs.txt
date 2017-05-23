@@ -1,0 +1,28 @@
+using UnityEngine;
+using UnityEditor;
+
+using System.Collections;
+using System.Collections.Generic;
+
+[CustomEditor(typeof(#TARGETNAME#))]
+public class #SCRIPTNAME# : Editor {
+
+	#TARGETNAME# editorTarget;
+
+	void OnEnable()
+    {
+		editorTarget = (#TARGETNAME#)target;
+	}
+
+	void OnDisable()
+    {
+		
+	}
+
+	public override void OnInspectorGUI()
+	{
+		// Show default inspector property editor
+		DrawDefaultInspector ();
+	}
+}
+

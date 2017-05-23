@@ -1,0 +1,20 @@
+using UnityEngine;
+using UnityEditor;
+
+using System.Collections;
+using System.Collections.Generic;
+
+public class #SCRIPTNAME# : EditorWindow {
+
+	[MenuItem("EditorWindow/#SCRIPTNAME#")]
+	public static void ShowWindow ()
+	{
+		#SCRIPTNAME# window = (#SCRIPTNAME#)EditorWindow.GetWindow (typeof ( #SCRIPTNAME# ));
+		window.Show(); 
+	}
+
+	void OnGUI () {
+		
+	}
+}
+
